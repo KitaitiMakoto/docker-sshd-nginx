@@ -1,9 +1,9 @@
-FROM ubuntu:precise
+FROM ubuntu:bionic-20180125
 
 MAINTAINER Vilius Lukosius <vilius.lukosius@gmail.com>
 
 # make sure the package repository is up to date
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu bionic main universe" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
