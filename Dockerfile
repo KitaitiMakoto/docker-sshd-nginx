@@ -1,4 +1,4 @@
-FROM ubuntu:bionic-20180125
+FROM ubuntu:bionic
 
 MAINTAINER Vilius Lukosius <vilius.lukosius@gmail.com>
 
